@@ -1,0 +1,197 @@
+:root h6 {
+  font-size: 15px;
+  font-family: "fahkwang", sans-serif;
+}
+:root a {
+  text-decoration: none !important;
+  color: #000000;
+}
+
+.nav-wrapper {
+  background-color: transparent;
+  z-index: -2;
+}
+
+.nav-left h6 {
+  display: flex;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+
+.circle-left {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ffe793;
+}
+
+.circle-right {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.mid-name {
+  font-family: "Carter One", cursive;
+}
+
+.bg-right {
+  background-color: #ffe793;
+  border-radius: 50%;
+  z-index: -3;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  width: 60vmax !important;
+  top: -16vmax;
+  left: 50%;
+  height: 60vmax !important;
+}
+
+.bg-border-left {
+  border-radius: 50%;
+  z-index: -4;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  width: 103vmax !important;
+  top: -45vmax;
+  left: 10%;
+  height: 64vmax !important;
+  border: solid 1px black;
+}
+
+.bg-bottom {
+  background-color: #000000;
+  border-radius: 50%;
+  z-index: -3;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  width: 561px !important;
+  bottom: -17vmax;
+  left: -171px;
+  height: 516px !important;
+}
+
+.bg-border-bottom {
+  border: 1px solid black;
+  border-radius: 50%;
+  z-index: -3;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  width: 561px;
+  bottom: -17vmax;
+  left: 101px;
+  height: 516px !important;
+}
+
+.text-hero-wrapper {
+  margin-top: 70px;
+  margin-left: 200px !important;
+}
+
+.txt-hero {
+  font-size: 5vmax;
+  font-family: "Carter One", cursive;
+}
+
+.text2-hero-wrapper {
+  margin-top: 50px;
+}
+
+.txt2-hero {
+  font-size: 2vmax;
+  font-family: "Fahkwang", sans-serif;
+}
+
+.txt3 {
+  font-size: 5vmax;
+  font-family: "Carter One", cursive;
+  text-align: center;
+}
+
+.about-intro1 {
+  margin-left: 80px;
+  margin-top: 50px;
+  font-size: 1.3vmax;
+  line-height: 1.5;
+  font-family: "Fahkwang", sans-serif;
+}
+
+.skill {
+  background-color: #000000;
+  margin: 4px;
+  color: aliceblue;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: 1vmax;
+}
+
+.skill-wrapper {
+  margin-top: 20px;
+}
+
+.outer-work-vid {
+  width: 30vmax;
+  height: 20vmax;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.work1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn-work {
+  width: 100px;
+  height: 40px;
+  font-size: small;
+  font-weight: 600;
+  border-radius: 24px;
+  color: white !important;
+  background-color: #000000;
+  text-decoration: none !important;
+  animation: live-demo infinite 2s ease;
+}
+
+.btn-work > a {
+  color: white !important;
+}
+
+.outer-work-vid2 {
+  width: 34vmax;
+  height: 20vmax;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@keyframes live-demo {
+  from {
+    box-shadow: 0px 0px 0px 0px rgb(19, 19, 19);
+  }
+  to {
+    box-shadow: 0px 0px 0px 20px rgba(255, 255, 255, 0);
+  }
+}
+.color-change {
+  transition: 1s;
+}/*# sourceMappingURL=style.css.map */
